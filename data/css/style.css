@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+/* .resizeimage img { width: 100%; } */
+
+.resizeimage img {
+    /* position: relative; */
+    height: 100%;
+    /* margin: auto; */
+}
+
+/* 背景 -------------------------------------*/
+
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+}
+
+#wine01 {
+    background-image: url(../images/ワイン1_ver1.0.png);
+    /* background-color: #0bd; */
+    min-height: 100vh;
+}
+
+#wine02 {
+    background-image: url(../images/ワイン2_ver1.0.png);
+    min-height: 100vh;
+}
+
+#wine03 {
+    background-image: url(../images/ワイン3_ver1.0.png);
+
+    min-height: 100vh;
+}
+
+#wine04 {
+    background-image: url(../images/ワイン4_ver1.0.png);
+    /* background-color: #0bd; */
+    min-height: 100vh;
+}
